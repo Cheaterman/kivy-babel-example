@@ -1,0 +1,14 @@
+BoxLayout:
+    orientation: 'vertical'
+
+    Label:
+        text: _._('hello_world')
+
+    BoxLayout:
+        Button:
+            text: 'English'
+            on_press: app.language = 'en'
+
+        Button:
+            text: 'Français'
+            on_press: app.language = 'fr'
